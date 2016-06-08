@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Test {
 	public static void main(String[] args){
 		TicTacToe ttt = new TicTacToe(5);
+		@SuppressWarnings("resource")
 		Scanner scan = new Scanner(System.in);
 		int player = -1;
 		int res = 0;
